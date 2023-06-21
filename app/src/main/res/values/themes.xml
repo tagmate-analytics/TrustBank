@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TrustBank" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#2C3565</item>
+    </style>
+
+    <color name="colorPrimary">#2C3565</color>
+
+    <style name="Theme.TrustBank" parent="Base.Theme.TrustBank" />
+</resources>

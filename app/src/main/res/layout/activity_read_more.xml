@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadMoreActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Terms &amp; Conditions"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. The preamble portion of this agreement shall be deemed to be an integral part of this agreement. "
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="2. The terms, conditions, covenants etc. contained in this agreement shall apply, subsist and be operative in respect of the credit facilities
+granted or to be granted by the Bank and this agreement shall be construed and read as part and parcel of documents/agreements
+executed/to be executed by the Borrower(s) in favour of the Bank. "
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+               android:text="3. The Borrower(s) agree and understand that whenever the context requires, singular term shall include plural and plural term shall include
+singular. "
+                android:textSize="22sp" />
+
+
+            <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Accept"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
